@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 素数を計算する
-
 int main(void)
 {
     long long num = 600851475143;
