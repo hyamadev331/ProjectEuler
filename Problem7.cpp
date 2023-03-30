@@ -7,10 +7,10 @@ bool isPrime(int n)
     {
         if (n % i == 0)
         {
-            return true;
+            return false;
         }
     }
-    return false;
+    return true;
 }
 
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
     int n = 4;
     while (1)
     {
-        if (!isPrime(n))
+        if (isPrime(n))
         {
             count++;
             if (count == 10001)
